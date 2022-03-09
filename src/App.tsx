@@ -8,7 +8,7 @@ function App() {
   return (
     <header className={styles.appHeader}>
       <img src={logomarca} alt="sneakers logo" />
-      <ul className={styles.list}>
+      <ul className={`${styles.listWrapper} ${styles.menuItems}`}>
         <li className={styles.listItem}>
           <a href="">Collections</a>
         </li>
@@ -24,6 +24,8 @@ function App() {
         <li className={styles.listItem}>
           <a href="">Contact</a>
         </li>
+      </ul>
+      <ul className={`${styles.listWrapper} ${styles.cartAndIcon}`}>
         <li>
           <a>
             <img src={iconCart} alt="ícone carrinho de compras" />
@@ -31,10 +33,13 @@ function App() {
         </li>
         <li>
           <a>
-            <img src={avatarProfile} alt="imagem de perfil da usuária" />
+            <img
+              src={avatarProfile}
+              alt="imagem de perfil da usuária"
+              className={styles.avatar}
+            />
           </a>
         </li>
-        <li></li>
       </ul>
     </header>
   );

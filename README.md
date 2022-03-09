@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Frontend Mentor Link: https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

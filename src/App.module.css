@@ -1,6 +1,12 @@
 .appHeader {
   display: flex;
   font-size: 1rem;
+  justify-content: space-around;
+  width: 100%;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 2px solid var(--light-grayish-blue);
 }
 
 /* Pegando todas as tags img que são filhas diretas da tag header */
@@ -8,13 +14,27 @@
   height: 100%;
 }
 
-.list {
+.listWrapper {
   display: flex;
   width: 100%;
-  justify-content: space-between;
 }
 
 /* Pegando todas as tags <a> descendentes da tag com a classe listItem sendo filha direta ou não*/
 .listItem a {
   color: var(--grayish-blue);
+}
+
+.cartAndIcon {
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.avatar {
+  height: 3.5rem;
+}
+
+.menuItems {
+  gap: 2rem;
+  margin-left: 3rem;
 }
