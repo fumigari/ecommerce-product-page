@@ -1,0 +1,20 @@
+.appHeader {
+  display: flex;
+  font-size: 1rem;
+}
+
+/* Pegando todas as tags img que são filhas diretas da tag header */
+.appHeader > img {
+  height: 100%;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Pegando todas as tags <a> descendentes da tag com a classe listItem sendo filha direta ou não*/
+.listItem a {
+  color: var(--grayish-blue);
+}
