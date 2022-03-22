@@ -1,8 +1,8 @@
 import { render } from "@testing-library/react";
 import Item from ".";
 
-describe("<Item />", () => {
-  test("render item", () => {
+describe("<MenuItems />", () => {
+  test("render menu-items", () => {
     const { container } = render(<Item />);
     const result = container.querySelector("li");
 
