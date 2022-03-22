@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+
+.menu__items {
+    color: var(--grayish-blue);
+    cursor: pointer;
+    transition: 200ms ease;
+}
+
+.menu__items:hover {
+    color: var(--orange);
+}
