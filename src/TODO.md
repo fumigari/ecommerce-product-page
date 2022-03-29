@@ -3,9 +3,9 @@
 - [x] Write tests for Item Component (TDD).
 - [x] Rename Item to MenuItems.
 - [x] Move first UL to MenuItems.
-- [ ] Create Logo component. (TDD)
+- [x] Create Logo component. (TDD)
   - [ ] Add Router Navigation when clicked.
-- [ ] Create Cart component. (TDD)
+- [x] Create Cart component. (TDD)
 - [ ] Add responsive design for Header.
 - [ ] Add navigation (Router DOM).
 
