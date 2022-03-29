@@ -9,11 +9,6 @@
   border-bottom: 2px solid var(--light-grayish-blue);
 }
 
-/* Pegando todas as tags img que são filhas diretas da tag header */
-.appHeader > img {
-  height: 100%;
-}
-
 .listWrapper {
   display: flex;
   width: 100%;
