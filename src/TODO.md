@@ -4,8 +4,10 @@
 - [x] Rename Item to MenuItems.
 - [x] Move first UL to MenuItems.
 - [ ] Create Logo component. (TDD)
+  - [ ] Add Router Navigation when clicked.
 - [ ] Create Cart component. (TDD)
 - [ ] Add responsive design for Header.
+- [ ] Add navigation (Router DOM).
 
 ### Cypress
 - [ ] Setup cypress
