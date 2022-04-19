@@ -4,7 +4,7 @@ import MenuItems from './components/menu-items';
 import Logo from "./components/logo";
 import Cart from "./components/cart";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <header className={styles.appHeader}>
       <Logo />
