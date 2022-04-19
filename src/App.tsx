@@ -1,8 +1,9 @@
 import React from "react";
 import Header from "./components/header/index";
+import PageRoutes from "./routes";
 
 function App() {
-  return <Header />;
+  return <PageRoutes />;
 }
 
 export default App;
