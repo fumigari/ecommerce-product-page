@@ -1,12 +1,13 @@
 import React from "react";
 import "./index.css";
-import iconCart from "../../../../images/icon-cart.svg";
 import avatarProfile from "../../../../images/image-avatar.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
 const Cart: React.FC = (): JSX.Element => {
   return (<ul role="list" className="list">
     <li>
-        <img src={iconCart} alt="ícone carrinho de compras"/>
+        <FontAwesomeIcon icon={faCartShopping} size="2x"/>
     </li>
     <li>
         <img
