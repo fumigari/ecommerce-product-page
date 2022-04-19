@@ -8,6 +8,9 @@
 - [x] Create Cart component. (TDD)
 - [ ] Add responsive design for Header.
 - [ ] Add navigation (Router DOM).
+- [ ] Create Button component.
+  - [ ] Add home button in not found page.
+- [ ] Add ESLint.
 
 ### Cypress
 - [ ] Setup cypress
