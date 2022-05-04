@@ -11,6 +11,9 @@
 - [ ] Create Button component.
   - [ ] Add home button in not found page.
 
+### Home
+- [ ] Crete Home component with products list.
+
 ### Cypress
 - [ ] Setup cypress
 - [ ] Create E2E tests for the Header.
