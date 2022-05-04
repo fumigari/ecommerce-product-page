@@ -7,10 +7,9 @@
   - [ ] Add Router Navigation when clicked.
 - [x] Create Cart component. (TDD)
 - [ ] Add responsive design for Header.
-- [ ] Add navigation (Router DOM).
+- [x] Add navigation (Router DOM).
 - [ ] Create Button component.
   - [ ] Add home button in not found page.
-- [ ] Add ESLint.
 
 ### Cypress
 - [ ] Setup cypress
@@ -27,3 +26,7 @@ cart count.
 ### Cart checkout
 - [ ] Create side drawer to show items added to
 the cart (using state management).
+
+### Setup project
+- [x] Add ESLint.
+- [ ] Add Sonar.
