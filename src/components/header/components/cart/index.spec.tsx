@@ -1,4 +1,5 @@
 import {render, screen} from "@testing-library/react";
+import React from "react";
 import Cart from "./index";
 
 describe("<Cart />", () => {
@@ -10,17 +11,10 @@ describe("<Cart />", () => {
     expect(result).toBeInTheDocument();
   });
 
-  test("Should render cart icon", () => {
+  test("Should render cart icons", () => {
     render(<Cart/>);
 
-    const result = screen.queryByAltText("ícone carrinho de compras");
-    expect(result).toBeInTheDocument();
-  });
-
-  test("Should render user icon", () => {
-      render(<Cart/>);
-
-      const result = screen.queryByAltText("imagem de perfil da usuária");
-      expect(result).toBeInTheDocument();
+    const result = screen.getAllByRole("menuitem");
+    expect(result).toHaveLength(2);
   });
 });
