@@ -1,5 +1,6 @@
-.appHeader {
+.header {
   display: flex;
+  flex-direction: column;
   font-size: 1rem;
   justify-content: space-around;
   width: 100%;
@@ -7,4 +8,11 @@
   align-items: center;
   padding: 2rem 0;
   border-bottom: 2px solid var(--light-grayish-blue);
+}
+
+.header__search {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
