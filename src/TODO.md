@@ -1,5 +1,4 @@
 ### Header
-
 - [x] Write tests for Item Component (TDD).
 - [x] Rename Item to MenuItems.
 - [x] Move first UL to MenuItems.
@@ -10,6 +9,17 @@
 - [x] Add navigation (Router DOM).
 - [ ] Create Button component.
   - [ ] Add home button in not found page.
+
+### SearchBar
+- [ ] Create SearchBar component implementing TDD.
+- [ ] Styles
+- [ ] Will be used inside Header
+
+### Input
+- [ ] Create input component implementing TDD.
+- [ ] Props: icon, placeholder, label, isRequired, type (text, search). 
+- [ ] Basic Styles.
+- [ ] Will be used inside SearchBar
 
 ### Home
 - [ ] Crete Home component with products list.
