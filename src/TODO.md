@@ -16,8 +16,8 @@
 - [ ] Will be used inside Header
 
 ### Input
-- [ ] Create input component implementing TDD.
-- [ ] Props: icon, placeholder, label, isRequired, type (text, search). 
+- [x] Create input component implementing TDD.
+- [x] Props: icon, placeholder, label, isRequired, type (text, search).
 - [ ] Basic Styles.
 - [ ] Will be used inside SearchBar
 
