@@ -1,0 +1,30 @@
+.input__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    border: 2px solid var(--grayish-blue);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.input:focus {
+    border-color: var(--orange);
+}
+
+.input__icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--grayish-blue);
+}
+
+.input__container:focus-within .input__icon {
+    color: var(--orange);
+}
