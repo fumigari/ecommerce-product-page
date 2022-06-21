@@ -1,11 +1,29 @@
 .list {
-    display: flex;
-    width: 100%;
-    gap: 2rem;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .list__avatar {
-    height: 3.5rem;
+  height: 3.5rem;
+}
+
+.menu__item--cart-wrapper {
+  position: relative;
+}
+
+.menu__item--cart-counter {
+  background-color: var(--orange);
+  display: flex;
+  height: 1.5rem;
+  border-radius: 50%;
+  width: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 2px white solid;
+  right: -13px;
+  top: -11px;
 }
