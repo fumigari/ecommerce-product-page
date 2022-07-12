@@ -5,10 +5,18 @@ import "./index.css";
 
 const SearchBar: React.FC = (): JSX.Element => {
   return (
-    <form className='search-bar__container'>
-      <Input icon={faSearch} name={'search-bar'} type={'search'} placeholder={'O que você está procurando?'}/>
-    </form>
-  )
+    <div className="search-bar__container">
+      <Input
+        icon={faSearch}
+        name={"search-bar"}
+        type={"search"}
+        placeholder={"O que você está procurando?"}
+        onInputData={(data) => {
+          console.log(data);
+        }}
+      />
+    </div>
+  );
 };
 
 export default SearchBar;
