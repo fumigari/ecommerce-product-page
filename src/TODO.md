@@ -18,9 +18,9 @@
 ### Input
 - [x] Create input component implementing TDD.
 - [x] Props: icon, placeholder, label, isRequired, type (text, search).
-- [ ] Basic Styles.
-- [ ] Will be used inside SearchBar
-
+- [x] Basic Styles.
+- [x] Will be used inside SearchBar.
+- [ ] Write tests for Input Data.
 ### Home
 - [ ] Crete Home component with products list.
 
